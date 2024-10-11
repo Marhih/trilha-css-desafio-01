@@ -14,15 +14,15 @@
 .banner {
     background-color: blue;
     background-image: url('../images/banner.png');
-    box-shadow: inset 0 0 1000px 200px black;
+    box-shadow: inset 0 0 500px 100px black
 }
 .banner-content {
     padding: 5% 0;
 }
 #logo {
     margin-top: 10px;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     box-shadow: 0 0 10px 5px aqua;
 }
@@ -33,12 +33,27 @@ h1 {
 p {
     color: white;
 }
+
  /*main*/
- main {
-    background-color: blue;
+ #course-content {
+    background-color: black;
+ }
+ #transform-world {
+    width: auto;
+    height: 400px;
+    background-image: url('../images/woman-code.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+ }
+ #transform-world p {
+    text-align: left;
+ }
+ #professional-challenges {
+    background-color: black;
  }
 
  /*footer*/
  footer {
-    background-color: blue;
+    background-color: black;
  }
