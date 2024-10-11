@@ -1,0 +1,12 @@
+@import url('assets/css/reset.css');
+
+* {
+    text-align: center;
+}
+
+/*banner*/
+.banner {
+    background-image: url('../images/banner.png');
+}
+
+
