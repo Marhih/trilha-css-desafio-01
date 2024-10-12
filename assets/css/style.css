@@ -21,22 +21,31 @@
 }
 #logo {
     margin-top: 10px;
+    padding: 10px;
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    box-shadow: 0 0 10px 5px aqua;
+    box-shadow: 20px 20px 20px 2px black;
 }
-h1 {
+.banner-content h1 {
     color: blue;
+    margin-top: 20px;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 2px;
 }
-
-p {
+.banner-content p {
     color: white;
+    margin: 10px 0;
+    font-size: 20px;
 }
 
  /*main*/
  #course-content {
     background-color: black;
+ }
+ #course-content p{
+    color: white;
  }
  #transform-world {
     width: auto;
