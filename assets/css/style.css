@@ -10,9 +10,10 @@
     background-image: url('../images/banner.png');
     box-shadow: inset 0 0 500px 100px black;
     font-family: 'Roboto';
+    border-bottom: 2px solid #33A8DB;
 }
 .banner-content {
-    padding: 5% 0;
+    padding: 5% 0 2% 0;
 }
 #logo {
     margin-top: 10px;
@@ -28,32 +29,62 @@
     font-size: 40px;
     font-weight: 900;
     text-transform: uppercase;
-	-webkit-text-stroke: 1px #F8F8F8;
-	text-shadow: 0px 2px 2px aqua;
+	 text-shadow: 0px 2px black;
 }
 .banner-content p {
     color: white;
-    margin: 10px 0;
+    margin: 20px 0;
     font-size: 18px;
     font-weight: 300;
 }
+.banner-content button {
+    color: #33A8DB;
+    margin-top: 10px;
+    padding: 15px 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: transparent;
+    border: 2px double #33A8DB;
+    box-shadow: 0 0 3px 1px #F8F8F8;
+}
 
  /*main*/
- #course-content {
+#course-content {
+   margin: 0 auto;
+    border-width: 10px;
     background-color: black;
+    padding: 50px;
  }
  #course-content h2 {
+    margin: 2%;
     color: #33A8DB;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
  }
  #course-content p{
-    color: white;
+   margin: 2%;
+   color: white;
+   font-weight: 300;
  }
+
  .module span{
     color: #33A8DB;
  }
- .module {
-    color: #F8F8F8;
+ .modules-list {
+   display: inline-block;
+   line-height: 0;
  }
+ .module {
+   width: 500px;
+    margin: 5px;
+    padding: 3%;
+    color: #F8F8F8;
+    border: 2px solid #33A8DB;
+    border-radius: 5px;
+ }
+
  #transform-world {
     width: auto;
     height: 400px;
