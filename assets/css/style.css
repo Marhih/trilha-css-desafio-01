@@ -9,7 +9,7 @@
     background: url('../images/banner.png'), linear-gradient(black, #33A8DB);
     box-shadow: inset 0 0 500px 100px black;
     font-family: 'Roboto';
-    border-bottom: 2px solid #33A8DB;
+    border-bottom: 1px solid #33A8DB;
 }
 .banner-content {
     padding: 5% 0 2% 0;
@@ -80,11 +80,13 @@
  }
  .module {
     width: 500px;
-    margin: 10px 0;
+    margin: 20px 0;
     padding: 4%;
     color: #F8F8F8;
-    border: 2px solid #33A8DB;
-    border-radius: 5px;
+    background: rgb(43, 41, 41);
+    border: 2px double #F8F8F8 #33A8DB;
+    box-shadow: 0 0 5px 2px aqua;
+    border-radius: 10px;
  }
 
  /*Segunda SECTION*/
@@ -134,7 +136,7 @@
     box-shadow: inset 0 0 100px 40px black;
  }
  .footer {
-   border-top: 2px solid #33A8DB;
+   border-top: 1px solid #33A8DB;
    padding: 30px 0 20px 0;
  }
  footer p {
