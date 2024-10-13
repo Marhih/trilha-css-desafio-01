@@ -24,12 +24,14 @@
     box-shadow: 20px 20px 20px 2px black;
 }
 .banner-content h1 {
-    color: #33A8DB;
     margin-top: 20px;
     font-size: 40px;
     font-weight: 900;
     text-transform: uppercase;
-	 text-shadow: 0px 2px black;
+    background: linear-gradient(rgb(0, 89, 253), #33A8DB);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-clip: clip;
 }
 .banner-content p {
     color: white;
@@ -105,8 +107,26 @@
  #professional-challenges {
     background-color: black;
  }
+ #professional-challenges h2{
+    margin: 0 auto;
+    padding: 40px 0 30px 0;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    width: 600px;
+    background: linear-gradient(#33A8DB, aqua);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-clip: clip;
+ }
+
  #professional-challenges p {
+   margin: 0 auto;
+   padding: 20px 0 50px 0;
    color: #F8F8F8;
+   width: 600px;
+   font-weight: 300;
  }
 
  /*FOOTER*/
@@ -115,6 +135,7 @@
     box-shadow: inset 0 0 100px 40px black;
  }
  .footer {
+   border-top: 2px solid #33A8DB;
    padding: 30px 0 20px 0;
  }
  footer p {
