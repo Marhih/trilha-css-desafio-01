@@ -27,7 +27,7 @@
     font-size: 40px;
     font-weight: 900;
     text-transform: uppercase;
-    background: linear-gradient(rgb(0, 89, 253), #33A8DB);
+    background: linear-gradient(#33A8BD, rgb(0, 89, 253));
     -webkit-background-clip: text;
     color: transparent;
     background-clip: clip;
@@ -57,6 +57,7 @@
     border-width: 10px;
     background-color: black;
     padding: 50px;
+    border-bottom: 5px solid #33A8BD;
  }
  #course-content h2 {
     margin: 2%;
@@ -84,7 +85,7 @@
     padding: 4%;
     color: #F8F8F8;
     background: rgb(43, 41, 41);
-    border: 2px double #F8F8F8 #33A8DB;
+    border: 1px inset #F8F8F8;
     box-shadow: 0 0 5px 2px aqua;
     border-radius: 10px;
  }
@@ -93,20 +94,24 @@
  #transform-world {
     width: auto;
     height: 400px;
-    background-image: url('../images/woman-code.png');
+    background: url('../images/woman-code.png');
     background-size: cover;
-    background-position: center;
     background-attachment: fixed;
  }
  #transform-world p {
+    padding: 100px 0 60px 60px;
     color: #F8F8F8;
     text-align: left;
     font-weight: 900;
+    width: 300px;
+    font-size: 40px;
+    text-shadow: 0 0 10px aqua;
  }
 
  /*Terceira SECTION*/
  #professional-challenges {
     background-color: black;
+    border-top: 5px solid #33A8BD;
  }
  #professional-challenges h2{
     margin: 0 auto;
