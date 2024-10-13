@@ -47,6 +47,7 @@
     letter-spacing: 2px;
     background-color: transparent;
     border: 2px double #F8F8F8 #33A8DB;
+    border-radius: 20px;
     box-shadow: 0 0 5px 2px aqua;
 }
 
